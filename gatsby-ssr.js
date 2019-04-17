@@ -8,12 +8,12 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 exports.onRenderBody = function (_ref, pluginOptions) {
   var setPostBodyComponents = _ref.setPostBodyComponents;
-  var tawkId = pluginOptions.tawkId
+  var tidioId = pluginOptions.tidioId
 
   return setPostBodyComponents([_react2.default.createElement("script", {
-    key: "gatsby-plugin-tawk",
+    key: "gatsby-plugin-tidio",
     async: true,
-    src: "https://embed.tawk.to/" + tawkId + "/default",
+    src: "//code.tidio.co/" + tidioId + ".js",
     charset: 'UTF-8'
   })]);
 };
