@@ -29,7 +29,7 @@ module.exports = {
       resolve: `gatsby-plugin-tidio`,
       options: {
         tidioId: "YOUR_TIDIO_ID",
-        // get this from the tawk script widget
+        // get this from the tidio script widget
       },
     },
   ],
