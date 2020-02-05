@@ -30,6 +30,7 @@ module.exports = {
       options: {
         tidioId: "YOUR_TIDIO_ID",
         // get this from the tidio script widget
+        development: true,
       },
     },
   ],
