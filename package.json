@@ -1,7 +1,7 @@
 {
   "name": "gatsby-plugin-tidio",
   "description": "Gatsby plugin that adds tidio JS file to site",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Tom Macready-Bryan <tom@codedrips.com>",
   "repository": {
     "type": "git",
