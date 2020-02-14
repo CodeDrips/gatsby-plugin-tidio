@@ -1,6 +1,6 @@
 const React = require('react')
 
-exports.onRenderBody = ({ setPostBodyComponents }, { tidioId, development = true }) => {
+exports.onRenderBody = ({ setHeadComponents }, { tidioId, development = true }) => {
   let source = "//code.tidio.co/" + tidioId + ".js"
 
   if (!development && process.env.NODE_ENV === 'development') {
@@ -17,7 +17,7 @@ exports.onRenderBody = ({ setPostBodyComponents }, { tidioId, development = true
     return null
   }
 
-  return setPostBodyComponents([
+  return setHeadComponents([
     <script
       key="gatsby-plugin-tidio"
       src={source}
