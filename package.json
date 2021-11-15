@@ -1,7 +1,7 @@
 {
   "name": "gatsby-plugin-tidio",
   "description": "Gatsby plugin that adds tidio JS file to site",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "author": "Tom Macready-Bryan <tom@codedrips.com>",
   "repository": {
     "type": "git",
@@ -25,7 +25,7 @@
   "license": "MIT",
   "main": "index.js",
   "peerDependencies": {
-    "gatsby": "^3.0.0"
+    "gatsby": "^4.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.15.4",
